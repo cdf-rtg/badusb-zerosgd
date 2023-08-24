@@ -1,6 +1,8 @@
 # Creating BadUSB with $0?
 REDTEECON 1 Conference Talk
-Researchers: Jordan Irshaad Zheng Yu Amin, Gerbelle Lim Zi Xuan
+<br> Researchers: 
+- Jordan Irshaad Zheng Yu Amin
+- Gerbelle Lim Zi Xuan
 
 ## Overview of Research
 Write your research overview here.
