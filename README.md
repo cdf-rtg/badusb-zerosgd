@@ -5,16 +5,29 @@ REDTEECON 1 Conference Talk (18th August 2023)
   - Gerbelle Lim Zi Xuan
 
 ## Overview of Research
-BadUSB is security vulnerability and attack method that targets USB devices, such as thumb drives, keyboards, and other USB peripherals. Malicious actions are performed on a compromised system by exploiting the inherent trust and functionality of USB devices. This research aims to explore the creation of a BadUSB device within a minimal budget of $0. 
+BadUSB is a security vulnerability and attack method that targets USB devices, including thumb drives, keyboards, and other USB peripherals. Malicious actions are executed on compromised systems by exploiting the inherent trust and functionality of USB devices. This research aims to explore the creation of a BadUSB device with a minimal budget of $0. 
+Our study enables us to comprehend and investigate various attack techniques applicable to standard USBs. Furthermore, we aim to develop our own version of BadUSB, capable of executing malicious actions with user interaction. By understanding the mechanisms of BadUSB attacks, the research contributes to better safeguarding systems against potential breaches and encourages cybersecurity awareness and the importance of regularly updating and monitoring USB device interaction.
 
 ## Additional sub topics
-- If you got additional sub topics, put here.
+- BadUSB attack with mimikatz using powershell script
+- the output of mimikatz commands are stored in a file called mimikatz_output.txt 
+- security measures in window 10
+  - autorun is disabled
+  - user account control promt
+  - window denfender(real-time montitoring)
+  - execution policy in powershell
+- coverting powershell into an executable(exe) 
+- social engineering to make the malicious exe enticing to click
+- malicious folder cotaning the scripts in the USB drive is hidden and encrypted
+  
+
 
 ## References/Links
 https://www.varonis.com/blog/what-is-mimikatz 
 https://www.avg.com/en/signal/how-to-password-protect-file-folder-in-windows 
 https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Bypass-UAC/Bypass-UAC.ps1 
 https://github.com/ParrotSec/mimikatz 
+https://github.com/MScholtes/PS2EXE/blob/master/Win-PS2EXE/README.md
 https://www.snapfiles.com/downloads/wbpassview/dlwbpassview.html 
 https://techcaption.com/create-hacking-pendrive/
 https://www.youtube.com/watch?v=DrKLebGeFpQ)https://www.youtube.com/watch?v=DrKLebGeFpQ
