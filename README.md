@@ -11,7 +11,7 @@ Our study enables us to comprehend and investigate various attack techniques app
 ## Additional sub topics
 - BadUSB attack with mimikatz using powershell script
 - the output of mimikatz commands are stored in a file called mimikatz_output.txt 
-- security measures in window 10
+- security measures in windows 10
   - autorun is disabled
   - user account control promt
   - window denfender(real-time montitoring)
