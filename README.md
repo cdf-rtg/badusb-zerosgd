@@ -5,20 +5,21 @@ REDTEECON 1 Conference Talk (18th August 2023)
   - Gerbelle Lim Zi Xuan
 
 ## Overview of Research
-BadUSB is a security vulnerability and attack method that targets USB devices, including thumb drives, keyboards, and other USB peripherals. Malicious actions are executed on compromised systems by exploiting the inherent trust and functionality of USB devices. This research aims to explore the creation of a BadUSB device with a minimal budget of $0. 
-Our study enables us to comprehend and investigate various attack techniques applicable to standard USBs. Furthermore, we aim to develop our own version of BadUSB, capable of executing malicious actions with user interaction. By understanding the mechanisms of BadUSB attacks, the research contributes to better safeguarding systems against potential breaches and encourages cybersecurity awareness and the importance of regularly updating and monitoring USB device interaction.
+BadUSB is a security vulnerability and attack method that targets USB devices, such as thumb drives, keyboards, and other USB peripherals. Malicious actions are executed on compromised systems by exploiting the inherent trust and functionality of USB devices. This research aims to explore the creation of a BadUSB device with a minimal budget of $0. 
+Our study enables us to comprehend and investigate various attack techniques applicable to standard USBs. Furthermore, we aim to develop our own version of BadUSB, capable of executing malicious actions with user interaction. By understanding the probable outcomes of BadUSB attacks, this research hopes to highlight the importance of protecting systems against potential breaches. Additionally, it promotes cybersecurity awareness and emphasizes the significance of consistent updates and monitoring of USB device interactions.
+
 
 ## Additional sub topics
 - BadUSB attack with mimikatz using powershell script
-- the output of mimikatz commands are stored in a file called mimikatz_output.txt 
-- security measures in windows 10
+- The output of mimikatz commands are stored in a file called mimikatz_output.txt 
+- Security features on Windows 10
   - autorun is disabled
-  - user account control promt
-  - window denfender(real-time montitoring)
+  - user account control prompt
+  - windows defender(real-time montitoring)
   - execution policy in powershell
-- coverting powershell into an executable(exe) 
-- social engineering to make the malicious exe enticing to click
-- malicious folder cotaning the scripts in the USB drive is hidden and encrypted
+- Converting powershell into an executable(exe) 
+- Social engineering to make the malicious exe enticing to click
+- Malicious folder cotaining the scripts in the USB drive is hidden and encrypted
   
 
 
