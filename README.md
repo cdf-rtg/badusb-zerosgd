@@ -15,6 +15,8 @@ Our study enables us to comprehend and investigate various attack techniques app
 
 
 ### Script Generator 
+Script generate folder contains a BadUSB_script.py pyhton module to allow users to choose different methods of extraction to acquire the 'mimikatz_output.txt'
+![image](https://github.com/cdf-rtg/badusb-zerosgd/assets/118789580/621a872b-2d88-4c50-9c7f-400ff4575781)
 
 ## Additional sub topics
 - BadUSB attack with mimikatz using powershell script
