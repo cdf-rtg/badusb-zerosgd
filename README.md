@@ -13,6 +13,9 @@ Our study enables us to comprehend and investigate various attack techniques app
 - secret/runme.ps1 : contains code to turn off real-time monitoring
 - secret/mimi.ps1 : contains code to download mimikatz and save its output to a text file in this same file location. deletes mimikatz.exe afterwards.
 
+
+## Script Generator 
+
 ## Additional sub topics
 - BadUSB attack with mimikatz using powershell script
 - The output of mimikatz commands are stored in a text file called mimikatz_output.txt 
