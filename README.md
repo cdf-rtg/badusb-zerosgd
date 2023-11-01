@@ -22,6 +22,13 @@ after executing the generator script, script_template.ps1 and BadUSB_script.py w
 
 do note you need your own server to use the following methods (HTTP, FTP, SCP). 
 
+Folder contains:
+- FreeValorantSkin.exe : the executable form of safe.ps1 which contains code to bypass powershell execution policy. Runs the script "runme.ps1" first followed by "mimi.ps1" both located in the secret folder.
+- BadUSB_script.py: contains script to auto generate mimi.ps1 script.
+- script_template.ps1: contains a template code which BadUSB_script.py will be using 
+- secret/runme.ps1 : contains code to turn off real-time monitoring.
+- secret/mimi.ps1 : contains code to download mimikatz and save its output to what the user have choosen.
+
 
 
 ## Additional sub topics
